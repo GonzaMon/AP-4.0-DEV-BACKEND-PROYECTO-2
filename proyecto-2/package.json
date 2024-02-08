@@ -1,0 +1,26 @@
+{
+    "name": "proyecto_integrador_n2",
+    "version": "1.0.0",
+    "description": "Curso de Programación BackEnd - UNTREF",
+    "scripts": {
+        "start": "node --watch --no-warnings ./src/server.js",
+        "test": "node --no-warnings ./tests/proyecto2.test.js",
+        "stop": "killall -9 node",
+        "eslint": "eslint ./src"
+    },
+    "keywords": [],
+    "author": "Gonzalo Montenegro",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongodb": "^5.7.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0"
+    },
+    "main": "connection_db.js",
+    "directories": {
+        "test": "tests"
+    }
+}
